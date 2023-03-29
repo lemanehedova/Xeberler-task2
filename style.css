@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+.html {
+  scroll-behavior: smooth;  
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.col-4{
+    width: calc(100%/3);
+}
+.item {
+    position: relative;
+    background-color: rgb(95, 96, 131);
+    height: 100%;
+    border: 1px solid black;
+}
+.p-1 {
+    padding: .5 rem;
+}
+.w-100 {
+    width: 100%;
+    height: 300px;
+
+}
+.text-center {
+    text-align: center;
+}
+.item p {
+    font-size: 20px;
+}
+ .item p .txt1 {
+    color: blue;
+ }
+ .item .yazi {
+    position: absolute;
+    width: 100%;
+    background-color: blue;
+ }
+ 
+ .user1 {
+    position: absolute;
+    top: 0;
+ }
+ .mart1{
+    background-color: rgb(29, 89, 156);
+    border: 1px solid black;
+ }
+ .time1{
+    background-color: rgb(29, 42, 228);
+    border: 1px solid black;
+ }
+ 
+ .user2 {
+    position: absolute;
+    top: 0;
+
+ }
+ .mart2 {
+    background-color: rgb(29, 89, 156);
+    border: 1px solid black;
+ }
+ .time2 {
+    background-color: rgb(29, 42, 228);
+    border: 1px solid black; 
+ }
+.user3 {
+    position: absolute;
+    top: 0;
+}
+.mart3 {
+    background-color: rgb(29, 89, 156);
+    border: 1px solid black;
+}
+.time3 {
+    background-color: rgb(29, 42, 228);
+    border: 1px solid black; 
+
+}
